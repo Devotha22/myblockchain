@@ -1,38 +1,80 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-image: linear-gradient(to right, rgb(15, 24, 44), rgb(11, 51, 82), rgb(18, 103, 175), rgb(23, 89, 218), rgb(18, 103, 175), rgb(11, 51, 82), rgb(15, 24, 44));
+  padding: 0.75rem 1rem;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  position: fixed;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  font-weight: 500;
+  width: 100%;
   color: white;
+  font-size: 1rem;
+  z-index:999;
 }
-
-.App-link {
-  color: #61dafb;
+.App:hover{
+  background-image:linear-gradient(to right, rgb(15, 24, 44), rgb(11, 51, 82), rgb(11, 64, 110), rgb(9, 58, 156), rgb(11, 72, 124), rgb(11, 51, 82), rgb(15, 24, 44)) ;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.header{
+background:rgb(15, 24, 44);
+}
+.bodypart{
+  background-color: rgb(20, 70, 153);
+  background-image: url(https://www.blockchain.com/static/img/home/home-hero-gradient.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  color: rgb(255, 255, 255)
+}
+.inputs{
+  width: 100%;
+  max-width: 24.1875rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1rem;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: rgb(255, 255, 255);
+}
+  .card {
+    font-size: 12px;
   }
-  to {
-    transform: rotate(360deg);
-  }
+.part2{
+background-image: url(https://www.blockchain.com/static/img/home/homepage-wallet-shapes-bg.png);
+background-size: cover;
+background-repeat: no-repeat;
+}
+.part3{
+  background-color: rgba(236, 245, 254, 0.5);
+  background-image: -webkit-image-set(url(https://www.blockchain.com/static/img/home/homepage-exchange-shapes-bg.png) 1x, url(https://www.blockchain.com/static/img/home/homepage-exchange-shapes-bg@2x.png) 2x);
+background-size: cover;
+background-repeat: no-repeat;
+}
+.part4{
+  background-image: -webkit-image-set(url(https://www.blockchain.com/static/img/home/homepage-institutional-shapes-bg.png) 1x, url(https://www.blockchain.com/static/img/home/homepage-institutional-shapes-bg@2x.png) 2x);
+}
+.part5{
+  background-color: rgba(255, 242, 229, 0.5);
+  background-image: -webkit-image-set(url(https://www.blockchain.com/static/img/home/homepage-explorer-shapes-bg.png) 1x, url(ttps://www.blockchain.com/static/img/home/homepage-explorer-shapes-bg@2x.png) 2x);
+}
+.part6{
+  background-color: rgb(18, 29, 51);
+  background-image: url(https://www.blockchain.com/static/img/banner/banner-bg.svg);
+  background-repeat: no-repeat;
+  background-size: 90rem;
+  background-position: -0.0625rem center;
+  color: rgb(255, 255, 255);
+  padding: 80px 0px;
+}
+/* signup classes*/
+.top{
+  
+  padding: 0px 16px;
+  box-sizing: border-box;
+  background-color: rgb(18, 29, 51);
+  background-image: url(https://login.blockchain.com/img/bg-pattern.svg);
+}
+.body{
+  background-color: rgb(18, 29, 51);
 }
