@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import "../App.css";
 import {Link} from 'react-router-dom';
@@ -6,7 +7,7 @@ import {Link} from 'react-router-dom';
     return (
         <div>
             <div className="App h-10 fixed top-0 left-0 right-0">
-        <h1><a href="#">Secure Your crypto with blockchain.com. Learn more</a></h1>
+        <h1><p>Secure Your crypto with blockchain.com. Learn more</p></h1>
       </div>
         <div className=" body min-h-screen py-8  ">
           <div className="header h-20 pt-6 text-white flex p-4 fixed left-0 right-0 ">
@@ -114,13 +115,13 @@ import {Link} from 'react-router-dom';
   <button className="bg-blue-700 text-white p-2 ml-28 rounded-md h-8 mb-4 content-center pt-0">Get Started</button>
    </div>
 <div className="part2 h-88 w-1/2 mb-4 mt-4">
-<img src="https://www.blockchain.com/static/img/home/products/prod-wallet-buy.png" className="mt-0 h-72 w-42 m-16"/>
+<img src="https://www.blockchain.com/static/img/home/products/prod-wallet-buy.png" className="mt-0 h-72 w-42 m-16" alt="home-product"/>
 
 </div>
 </section>
 <section className=" bg-blue-50  mb-2 min-h-screen rounded-md flex mt-16 m-6">
 <div className="part3 h-88 w-1/2 mb-4 mt-4">
-<img src="https://www.blockchain.com/static/img/home/products/prod-exchange-fiat-currencies.png" className="mt-0 h-72 w-42 m-16"/>
+<img src="https://www.blockchain.com/static/img/home/products/prod-exchange-fiat-currencies.png" alt="prod-exchange" className="mt-0 h-72 w-42 m-16"/>
 
 </div>
   <div className="min-h-screen w-1/2">
@@ -189,7 +190,7 @@ import {Link} from 'react-router-dom';
   <button className="bg-yellow-700 text-white p-2 ml-28 rounded-md h-8 mb-4 content-center pt-0">Explore Now</button>
    </div>
 <div className="part5 h-88 w-1/2 mb-4 mt-4">
-<img src="https://www.blockchain.com/static/img/home/products/prod-explore-blockchains.png" className="mt-0 h-72 w-42 m-16"/>
+<img src="https://www.blockchain.com/static/img/home/products/prod-explore-blockchains.png" alt="blockchain-static" className="mt-0 h-72 w-42 m-16"/>
 
 </div>
 </section>

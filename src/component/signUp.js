@@ -1,9 +1,10 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 export default function SignUp() {
     return (
         <div className="bg-blue-900">
 <div className=" top h-12 fixed right-0 left-0 flex flex-col justify-center items-center">
-    <img className="h-6 w-60 block mx-4" src="https://login.blockchain.com/img/bc-logo.svg?91c7840afd"  /> </div>
+    <img className="h-6 w-60 block mx-4" src="https://login.blockchain.com/img/bc-logo.svg?91c7840afd" alt="login-blockchain" /> </div>
 <section class="body dark:bg-gray-900 flex flex-col justify-center items-center ">
      
       <div class="w-84 bg-white rounded-lg shadow mt-24 dark:border md:mt-6 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
@@ -44,10 +45,10 @@ export default function SignUp() {
                   </div>
                   <button type="submit" class="w-full text-white bg-blue-400 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Continue</button>
                   <div className="flex ">
-                      <img className=" m-2 w-28 h-12" src="https://login.blockchain.com/img/apple-app-store-badge.svg?6518b9c800"/>
-                      <img className=" m-2 w-28 h-12" src="https://login.blockchain.com/img/google-play-badge.svg?3f923d916a"/></div>
+                      <img className=" m-2 w-28 h-12" src="https://login.blockchain.com/img/apple-app-store-badge.svg?6518b9c800" alt="apple-app"/>
+                      <img className=" m-2 w-28 h-12" src="https://login.blockchain.com/img/google-play-badge.svg?3f923d916a" alt="play-badge"/></div>
                   <p class="text-sm font-light text-gray-500 dark:text-gray-400 border-t-2">
-                      Already have a Blockchain.com account? <a href="#" class="font-medium text-primary-600 hover:underline dark:text-primary-500">Login -</a>
+                      Already have a Blockchain.com account? <p class="font-medium text-primary-600 hover:underline dark:text-primary-500">Login -</p>
                   </p>
               </form>
           </div>
