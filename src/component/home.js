@@ -39,7 +39,7 @@ import { useNavigate } from 'react-router-dom'
           {/* <input type="text" className="inputs border-2 "/> */}
           <input type="email" autocomplete="on" id="email" name="email" placeholder="Your email address" required className="inputs ml-28 mt-6 text-white "></input>
           <button className="bg-gray-200 text-blue-800 p-2 ml-6 rounded-md" onClick={() => navigate("/signup")} >SignUp</button>
-          <div className="grid grid-cols-4 gap-4 text-xs ml-32 mt-16 mr-32">
+          <div className="md:grid grid-cols-4 gap-4 text-xs ml-32 mt-16 mr-32">
 
          <div className="bg-white p-2  rounded-md">
             <div className="flex justify-between">
