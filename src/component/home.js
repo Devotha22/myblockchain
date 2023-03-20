@@ -41,15 +41,15 @@ import { useNavigate } from 'react-router-dom'
           <button className="bg-gray-200 text-blue-800 p-2 ml-6 rounded-md" onClick={() => navigate("/signup")} >SignUp</button>
           <div className="grid grid-cols-4 gap-4 text-xs ml-32 mt-16 mr-32">
 
-         <div className="bg-white p-2 rounded-md">
+         <div className="bg-white p-2  rounded-md">
             <div className="flex justify-between">
               <img alt="BTC icon" src="https://www.blockchain.com/static/img/prices/prices-btc.svg" class="h-6 w-6"/>
               <div><button className="text-blue-800 bg bg-blue-100 border-2 rounded-md h-6 pl-2 pr-2 pb-2 content-center">Buy</button>
               <button className="text-green-400 h-6 content-center bg-green-100 border-2 rounded-md m-2 pb-2">Trade</button></div>
               </div>
               <div>
-                <div className="text-black"><p>BitCoin BTC</p></div>
-                <div className="flex text-black" ><p className=" ">$24,883.71</p>
+                <div className="text-black pt-2"><p>BitCoin BTC</p></div>
+                <div className="flex text-black pt-2" ><p className=" ">$24,883.71</p>
                 <p color="chartRed" class=" text-red-600 ml-2 ">-4.19%</p>
                 </div>
               </div>
@@ -61,8 +61,8 @@ import { useNavigate } from 'react-router-dom'
               <button className="text-green-400 h-6 content-center bg-green-100 border-2 rounded-md m-2 pb-2">Trade</button></div>
               </div>
               <div>
-                <div className="text-black"><p>BitCoin BTC</p></div>
-                <div className="flex text-black" ><p className=" ">$24,883.71</p>
+                <div className="text-black pt-2"><p>BitCoin BTC</p></div>
+                <div className="flex text-black pt-2" ><p className=" ">$24,883.71</p>
                 <p color="chartRed" class=" text-red-600 ml-2 ">-4.19%</p>
                 </div>
               </div>
@@ -74,21 +74,21 @@ import { useNavigate } from 'react-router-dom'
               <button className="text-green-400 h-6 content-center bg-green-100 border-2 rounded-md m-2 pb-2">Trade</button></div>
               </div>
               <div>
-                <div className="text-black"><p>BitCoin BTC</p></div>
-                <div className="flex text-black" ><p className=" ">$24,883.71</p>
+                <div className="text-black pt-2"><p>BitCoin BTC</p></div>
+                <div className="flex text-black pt-2" ><p className=" ">$24,883.71</p>
                 <p color="chartRed" class=" text-red-600 ml-2 ">-4.19%</p>
                 </div>
               </div>
             </div>
-            <div className="bg-white p-2 rounded-md">
+            <div className="bg-white p-2 rounded-md h-32">
             <div className="flex justify-between">
               <img alt="BTC icon" src="https://www.blockchain.com/static/img/prices/prices-btc.svg" class="h-6 w-6"/>
               <div className="flex justify-between"><button className="text-blue-800 bg bg-blue-100 border-2 rounded-md h-6 pl-2 pr-2 pb-2 content-center">Buy</button>
               <button className="text-green-400 content-center text-xs bg-green-100 border-2 rounded-md mx-2 px-2">Trade</button></div>
               </div>
               <div>
-                <div className="text-black"><p>BitCoin BTC</p></div>
-                <div className="flex text-black" ><p className=" ">$24,883.71</p>
+                <div className="text-black pt-2"><p>BitCoin BTC</p></div>
+                <div className="flex text-black pt-2" ><p className=" ">$24,883.71</p>
                 <p color="chartRed" class=" text-red-600 ml-2 ">-4.19%</p>
                 </div>
               </div>
