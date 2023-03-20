@@ -2,8 +2,11 @@
 import React from 'react';
 import "../App.css";
 import {Link} from 'react-router-dom';
+import { useNavigate } from 'react-router-dom'
 
  function Home() {
+    const navigate = useNavigate();
+  
     return (
         <div>
             <div className="App h-10 fixed top-0 left-0 right-0">
@@ -30,15 +33,15 @@ import {Link} from 'react-router-dom';
                 
                <Link to="/signup"><button className="bg-white text-blue-800 p-2 ml-6 rounded-md">SignUp</button> </Link>
           </div>
-          <div className=" bodypart  h-96 z-20 mt-20"> 
-          <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-white md:text-3xl lg:text-2xl font-serif dark:text-white pt-12 pb-10 pl-32 pr-96">The world’s most popular way to buy, sell, and trade crypto</h1>
-          <p className="text-lg  pl-36 pr-96">Trusted by millions since 2011 with over $1 Trillion in crypto transactions</p>
+          <div className=" bodypart bg-white h-96 mt-8"> 
+          <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-white md:text-2xl lg:text-2xl font-serif dark:text-white pt-12  pl-32 pr-96">The world’s most popular way to buy, sell, and trade crypto</h1>
+          <p className="text-lg  pl-36 pr-96 mt-4">Trusted by millions since 2011 with over $1 Trillion in crypto transactions</p>
           {/* <input type="text" className="inputs border-2 "/> */}
-          <input type="text" autocomplete="on" id="email" name="email" placeholder="Your email address" value="" required="" className="inputs ml-28 mt-6 text-white "></input>
-          <button className="bg-gray-200 text-blue-800 p-2 ml-6 rounded-md">SignUp</button>
-          <div className="card grid grid-cols-4 gap-4  text-lg ml-32 mt-2 mr-32">
+          <input type="email" autocomplete="on" id="email" name="email" placeholder="Your email address" required className="inputs ml-28 mt-6 text-white "></input>
+          <button className="bg-gray-200 text-blue-800 p-2 ml-6 rounded-md" onClick={() => navigate("/signup")} >SignUp</button>
+          <div className="grid grid-cols-4 gap-4 text-xs ml-32 mt-16 mr-32">
 
-            <div className="bg-white p-4 rounded-md">
+         <div className="bg-white p-2 rounded-md">
             <div className="flex justify-between">
               <img alt="BTC icon" src="https://www.blockchain.com/static/img/prices/prices-btc.svg" class="h-6 w-6"/>
               <div><button className="text-blue-800 bg bg-blue-100 border-2 rounded-md h-6 pl-2 pr-2 pb-2 content-center">Buy</button>
@@ -51,7 +54,7 @@ import {Link} from 'react-router-dom';
                 </div>
               </div>
             </div>
-            <div className="bg-white p-4 rounded-md">
+            <div className="bg-white p-2 rounded-md">
             <div className="flex justify-between">
               <img alt="BTC icon" src="https://www.blockchain.com/static/img/prices/prices-eth.svg" class="h-6 w-6"/>
               <div><button className="text-blue-800 bg bg-blue-100 border-2 rounded-md h-6 pl-2 pr-2 pb-2 content-center">Buy</button>
@@ -64,7 +67,7 @@ import {Link} from 'react-router-dom';
                 </div>
               </div>
             </div>
-            <div className="bg-white p-4 rounded-md">
+            <div className="bg-white p-2 rounded-md">
             <div className="flex justify-between">
               <img alt="BTC icon" src="https://www.blockchain.com/static/img/prices/prices-btc.svg" class="h-6 w-6"/>
               <div><button className="text-blue-800 bg bg-blue-100 border-2 rounded-md h-6 pl-2 pr-2 pb-2 content-center">Buy</button>
@@ -77,7 +80,7 @@ import {Link} from 'react-router-dom';
                 </div>
               </div>
             </div>
-            <div className="bg-white p-4 rounded-md">
+            <div className="bg-white p-2 rounded-md">
             <div className="flex justify-between">
               <img alt="BTC icon" src="https://www.blockchain.com/static/img/prices/prices-btc.svg" class="h-6 w-6"/>
               <div className="flex justify-between"><button className="text-blue-800 bg bg-blue-100 border-2 rounded-md h-6 pl-2 pr-2 pb-2 content-center">Buy</button>
