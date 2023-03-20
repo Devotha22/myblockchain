@@ -33,9 +33,9 @@ import { useNavigate } from 'react-router-dom'
                 
                <Link to="/signup"><button className="bg-white text-blue-800 p-2 ml-6 rounded-md">SignUp</button> </Link>
           </div>
-          <div className=" bodypart bg-white h-96 mt-8"> 
-          <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-white md:text-2xl lg:text-2xl font-serif dark:text-white pt-12  pl-32 pr-96">The world’s most popular way to buy, sell, and trade crypto</h1>
-          <p className="text-lg  pl-36 pr-96 mt-4">Trusted by millions since 2011 with over $1 Trillion in crypto transactions</p>
+          <div className=" bodypart bg-white h-96 mt-12"> 
+          <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-white md:text-4xl lg:text-2xl font-serif dark:text-white pt-12  pl-32 pr-96">The world’s most popular way to buy, sell, and trade crypto</h1>
+          <p className="text-lg  pl-36 pr-96 mt-12">Trusted by millions since 2011 with over $1 Trillion in crypto transactions</p>
           {/* <input type="text" className="inputs border-2 "/> */}
           <input type="email" autocomplete="on" id="email" name="email" placeholder="Your email address" required className="inputs ml-28 mt-6 text-white "></input>
           <button className="bg-gray-200 text-blue-800 p-2 ml-6 rounded-md" onClick={() => navigate("/signup")} >SignUp</button>
